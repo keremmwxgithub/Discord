@@ -23,19 +23,18 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
+    .setApplicationId('1')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
+    .setName(' ')
+    .setDetails(`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ ꒱ 🩷 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
+ .setAssetsLargeImage('https://www.youtube.com/watch?v=xJ2CoqlBGGI') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    .setAssetsSmallText('') //Text when you hover the Small image
+
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
