@@ -25,17 +25,15 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setURL('https://www.youtube.com/watch?v=xJ2CoqlBGGI') //Must be a youtube video link 
+    .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
+    .setName(' ')
+    .setDetails(`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ ꒱ 🩷 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1100708631311286342/1259775833132892170/c00910e4b80844c9234300c8abf395d7.gif?ex=668ce92c&is=668b97ac&hm=ee83a40e0e62b79d3aba803c86d23ed84ca3003cd493bebc00766bdb9559f240&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') //Text when you hover the Large image
     .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    .setAssetsSmallText('') //Text when you hover the Small image
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
