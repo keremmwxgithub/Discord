@@ -23,7 +23,7 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1')
+    .setApplicationId('123')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=NJptMSsS4kU') //Must be a youtube video link 
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
@@ -32,8 +32,8 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1264141925234249738/fe2e91c895f7da8d507417fb9ec54913.png?ex=669f6e69&is=669e1ce9&hm=831bd9a0260e946cb5da6d15630d7fe9f37fc1becdd966b45923186ab9f2fe0b&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('') //Text when you hover the Small image
+    .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText(' ') //Text when you hover the Small image
 
 
   client.user.setActivity(r);
