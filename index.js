@@ -34,8 +34,8 @@ client.on('ready', async () => {
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') //Text when you hover the Large image
     .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
     .setAssetsSmallText(' ') //Text when you hover the Small image
-    .addButton(' ', ' ')
-    .addButton(' ', ' ');
+    .addButton(' ', 'https://www.youtube.com/')
+    .addButton(' ', 'https://www.youtube.com/');
 
 
   client.user.setActivity(r);
