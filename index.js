@@ -28,9 +28,9 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=NJptMSsS4kU') //Must be a youtube video link 
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
     .setName('🌈')
-    .setDetails(`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ ꒱ 🖤 [${formatTime()}]`)
+    .setDetails(`≡;- ꒰ ° ɴᴀᴠɪᴀ ꒱ 💛 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1264141925234249738/fe2e91c895f7da8d507417fb9ec54913.png?ex=66a9fa69&is=66a8a8e9&hm=80ac7d928ee0364aace774ce051552f6476de8e77cc03e02666171fd5ee4adc6&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1267874880049643560/7b98b0c22e972190b262d8713e97e9f4.png?ex=66aa5fff&is=66a90e7f&hm=d2b382db62a293510d17668ea1a8501ca3da4eeb72c6f0a12648067d9b7e3e43&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') //Text when you hover the Large image
     .setAssetsSmallImage(' ') //You can put links in tenor or discord and etc.
     .setAssetsSmallText(' ') //Text when you hover the Small image
