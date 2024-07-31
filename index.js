@@ -30,4 +30,5 @@ client.on('ready', async () => {
   client.user.setPresence({ status: "dnd" }); // dnd, online, idle, offline
 });
 
-client.login('YOUR_TOKEN'); // Make sure to replace 'YOUR_TOKEN' with your actual bot token
+const mySecret = process.env['TOKEN'];
+client.login(mySecret);
