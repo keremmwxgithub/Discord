@@ -21,7 +21,7 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1267874880049643560/7b98b0c22e972190b262d8713e97e9f4.png?ex=66aa5fff&is=66a90e7f&hm=d2b382db62a293510d17668ea1a8501ca3da4eeb72c6f0a12648067d9b7e3e43&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
-    .setAssetsSmallImage(' ') // Small image link
+    .setAssetsSmallImage('') // Small image link
     .setAssetsSmallText(' ') // Text when you hover over the small image
     .addButton(' ', 'https://www.youtube.com/')
     .addButton(' ', 'https://www.youtube.com/');
