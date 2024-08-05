@@ -19,9 +19,9 @@ client.on('ready', async () => {
     .setName('🌈')
     .setDetails('≡;- ꒰ ° ᴡᴀɴᴅᴇʀᴇʀ ꒱ 💙') // Details without time
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1269248018444582965/1373f30c92eec998997e8ab302bdb67b.png?ex=66af5ed5&is=66ae0d55&hm=857b39fc4cfba8b9aef05b40aedd07c40259e4d4d3be6e969b11731887cfdc33&') // Large image link
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1269248018444582965/1373f30c92eec998997e8ab302bdb67b.png?ex=66b15915&is=66b00795&hm=c43296fbf55a41180090c14c84b97ccba9b57a2603b8e81db31e6677fe730f5c&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1269248303137030197/20.png?ex=66af5f18&is=66ae0d98&hm=ced5d50d087e1c27d5f976cbf45c794722f93e3048798ae8c237317746c9895a&') // Small image link
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1269248303137030197/20.png?ex=66b15958&is=66b007d8&hm=6e528f5c0d781260896bc5c7a218e042f9a066eb95f56f508ef881f41220bbfa&') // Small image link
     .setAssetsSmallText(' ') // Text when you hover over the small image
     .addButton(' ', 'https://www.youtube.com/')
     .addButton(' ', 'https://www.youtube.com/');
