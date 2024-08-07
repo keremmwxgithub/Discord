@@ -14,14 +14,14 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('123')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=NJptMSsS4kU') // Must be a YouTube video link
+    .setURL('https://www.twitch.tv/sushisue') // Must be a YouTube video link
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
     .setName('🌈')
-    .setDetails('≡;- ꒰ ° ᴡᴀɴᴅᴇʀᴇʀ ꒱ 💙') // Details without time
+    .setDetails('`≡;- ꒰ ° ʀᴀɪᴅᴇɴ sʜᴏɢᴜɴ ꒱ 💜') // Details without time
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1269248018444582965/1373f30c92eec998997e8ab302bdb67b.png?ex=66b15915&is=66b00795&hm=c43296fbf55a41180090c14c84b97ccba9b57a2603b8e81db31e6677fe730f5c&') // Large image link
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1270727308776443955/6b663216955e50134bba3c796a4fc747.gif?ex=66b4c087&is=66b36f07&hm=b79e9ae3e465a371ff1b40b6fc5f6099859f1f0153ea4248941c2adfc1969e7a&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1269248303137030197/20.png?ex=66b15958&is=66b007d8&hm=6e528f5c0d781260896bc5c7a218e042f9a066eb95f56f508ef881f41220bbfa&') // Small image link
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1270727689581629557/6a7522cf61116b1885ce66722b15e4d4.png?ex=66b4c0e2&is=66b36f62&hm=585d11b16f6338176dcc2df0ecb8fd49f20b0c29be7d2d1d66d1ddd9042fe200&') // Small image link
     .setAssetsSmallText(' ') // Text when you hover over the small image
     .addButton(' ', 'https://www.youtube.com/')
     .addButton(' ', 'https://www.youtube.com/');
