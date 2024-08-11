@@ -17,11 +17,11 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/sushisue') // Must be a YouTube video link
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
     .setName('🌈')
-    .setDetails('`≡;- ꒰ ° ʀᴀɪᴅᴇɴ sʜᴏɢᴜɴ ꒱ 💜') // Details without time
+    .setDetails('`≡;- ꒰ ° ɴɪʟᴏᴜ  ꒱ ❤️') // Details without time
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1270727308776443955/6b663216955e50134bba3c796a4fc747.gif?ex=66b4c087&is=66b36f07&hm=b79e9ae3e465a371ff1b40b6fc5f6099859f1f0153ea4248941c2adfc1969e7a&') // Large image link
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1272130921369178154/de3eb136fe74e4e4b9f80a77115a5a25.png?ex=66b9dbbe&is=66b88a3e&hm=b6964d0965c689d302d64a443b5f009d2bacea4a1653cfa856c2ccaa7a56938d&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1270727689581629557/6a7522cf61116b1885ce66722b15e4d4.png?ex=66b4c0e2&is=66b36f62&hm=585d11b16f6338176dcc2df0ecb8fd49f20b0c29be7d2d1d66d1ddd9042fe200&') // Small image link
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1097132368441122879/1272131406612660264/9c1ed9619bd2fef8ec83008f45d7d666.png?ex=66b9dc32&is=66b88ab2&hm=85fe208358ada5ce332f9b197a3321bf448a52e648abac38c66b5d619aa394ce&') // Small image link
     .setAssetsSmallText(' ') // Text when you hover over the small image
     .addButton(' ', 'https://www.youtube.com/')
     .addButton(' ', 'https://www.youtube.com/');
