@@ -13,11 +13,11 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('123')
-    .setType('STREAMING')
+    .setType('LISTENING')
     .setURL('https://www.twitch.tv/sushisue') // Must be a YouTube video link
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
-    .setName('🌈')
-    .setDetails('`≡;- ꒰ ° ɴɪʟᴏᴜ  ꒱ ❤️') // Details without time
+    .setName('Why are you looking at my profile, n1gga?')
+    .setDetails('`≡;- ꒰ ° ᴋɪɴɪᴄʜ  ꒱ 💚') // Details without time
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1272130921369178154/de3eb136fe74e4e4b9f80a77115a5a25.png?ex=66b9dbbe&is=66b88a3e&hm=b6964d0965c689d302d64a443b5f009d2bacea4a1653cfa856c2ccaa7a56938d&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
