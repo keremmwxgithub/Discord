@@ -13,13 +13,13 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('123')
-    .setType('LISTENING')
+    .setType('STREAMING')
     .setURL('https://www.twitch.tv/sushisue') // Must be a YouTube video link
     .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
-    .setName('Why are you looking at my profile, n1gga?')
-    .setDetails('`≡;- ꒰ ° ᴋɪɴɪᴄʜ  ꒱ 💚') // Details without time
+    .setName(' Since 1945 😉 ')
+    .setDetails('`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ  ꒱ 🖤') // Details without time
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1274278315833950300/e47f0edbffd342213e906ffd21ddae95.png?ex=66c1aba9&is=66c05a29&hm=fd3dbb9b8b330d829726d3ba58efc2d3c9c1b2ffb63913ab5860f9c9d1fb0dbf&') // Large image link
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1264141925234249738/fe2e91c895f7da8d507417fb9ec54913.png?ex=66c84ce9&is=66c6fb69&hm=98e63e2531ca85766f138cfaf811faecc43ce7750c8127ab50cd551a0c2edd0e&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
     .setAssetsSmallImage(' ') // Small image link
     .setAssetsSmallText(' ') // Text when you hover over the small image
