@@ -19,7 +19,7 @@ client.on('ready', async () => {
     .setName(' Since 1945 😉 ')
     .setDetails('`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ  ꒱ 🖤') // Details without time
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1097132368441122879/1276841017676664843/64a4bb8cd0e2bbc28bf6ffa779083795.gif?ex=66cafe5d&is=66c9acdd&hm=c79404bb2f45ac618d0439793237e21fc7f64b73e1e8f5adb35a4e9003627e8e&') // Large image link
+    .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1097132368441122879/1278405370410434560/d0534f1e94876f78a992b22e6d34ff36.png?ex=66d0af47&is=66cf5dc7&hm=78c75a099c9db85703d0fc8f86da4062302a9c9f5684fa577819276af7f43977&') // Large image link
     .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ') // Text when you hover over the large image
     .setAssetsSmallImage(' ') // Small image link
     .setAssetsSmallText(' ') // Text when you hover over the small image
